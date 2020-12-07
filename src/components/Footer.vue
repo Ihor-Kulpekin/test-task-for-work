@@ -252,19 +252,6 @@ input {
   }
 }
 
-.footer-input:before {
-  content: "";
-  position: absolute;
-  bottom: 51%;
-  right: 0;
-  height: 8px;
-  width: 8px;
-  background: transparent;
-  border-top: 1px #000 solid;
-  border-right: 1px #000 solid;
-  transform: rotate(45deg);
-}
-
 .noshowing {
   position: absolute;
   right: -40px;
@@ -275,16 +262,6 @@ input {
   display: block;
   transform: scale(0.6);
   opacity: 0;
-}
-
-.noshowing:after{
-  content: '';
-  position: absolute;
-  bottom: 60%;
-  right: 0;
-  height: 1px;
-  width: 16px;
-  background: #000;
 }
 
 @media (max-width: 800px) {
