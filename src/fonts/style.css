@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?n8bjpx');
+  src:  url('icomoon.eot?n8bjpx#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?n8bjpx') format('truetype'),
+    url('icomoon.woff?n8bjpx') format('woff'),
+    url('icomoon.svg?n8bjpx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon', sans-serif !important;
+  speak: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e9da";
+  color: black;
+}
